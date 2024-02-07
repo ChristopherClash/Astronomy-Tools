@@ -20,7 +20,7 @@ BING_MAPS_KEY = os.getenv("BING_MAPS_KEY")
 # Gets the longitude and latitude of the user by geocoding their address using the Bing Maps API
 def get_longitude_latitude():
     address = input("\nPlease enter your address (so we can find your longitude and latitude): ")
-    g = geocoder.bing(address, key=BING_MAPS_KEY)
+    g = geocoder.bing(address, key='Ai7RzM03xcjVLqx48S1JnCyXWz9BVMkVYb79d-TPCMgEG3C-ZFBz4KXozNZ5gKDI')
     results = g.json
     return results['lat'], results['lng']
 
@@ -263,7 +263,9 @@ def choose_option():
 
 
 def main():
-    choose_option()
+    choose = True
+    while choose:
+        choose = choose_option()
 
 
 if __name__ == '__main__':

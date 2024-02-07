@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.9 (astronomy_tools)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (astronomy_tools)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
 </project>
